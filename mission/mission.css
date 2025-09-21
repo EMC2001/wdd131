@@ -1,0 +1,56 @@
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 120px;
+    border: 1px solid #ccc;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.title h2 {
+    color: #0359c0;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+main {
+    text-align: left;
+    line-height: 1.5;
+}
+
+main p{
+    margin-top: 40px;
+}
+
+main p + ol {
+    margin-left: 20px;
+}
+
+main ol li {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer img {
+    padding-top: 40px;
+    width: 150px;
+}
