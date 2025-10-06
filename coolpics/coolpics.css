@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    background-color: blue;
+}
+
+p{
+    text-align: center;
+}
+p1{
+    padding: 10px;
+}
+main {
+    background-color: lightgrey;
+    display: grid;                  /* make it a grid */
+    grid-template-columns: 1fr;     /* default: 1 column (mobile) */
+    gap: 20px;                      /* space between rows/columns */
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    background-color: lightblue;
+}
+
+nav {
+    display: flex;
+    justify-content: center;  /* centers horizontally */
+    gap: 20px;                /* space between links */
+    background-color: lightblue;   /* keep your background */
+    padding: 10px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+@media screen and (min-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width: 500px) {
+    main {
+        grid-template-columns: 1fr 1fr;  /* 2 columns on tablets */
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;  /* 3 columns on desktops */
+    }
+}
