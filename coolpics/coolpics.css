@@ -1,46 +1,82 @@
 body {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
+  margin: 0px;
+  padding: 0px;
   font-size: 1.2em;
   background-color: #ebebeb;
 }
-h1, h2 {
+h1, h2, p, a, footer {
   text-align: center;
-  font-family: var(--secondary-font);
-  font-size: 2em;
 }
-header {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
+
+h1, h2, a, footer {
+  color: white
+}
+
+header, footer {
+  padding: 1rem;
+  background-color: #1E90FF;
+}
+
+h2{
+  margin-left: auto;
+  margin-right: auto;
 }
 img {
-  max-width: 100%;
-  height: 250px;
-  width: 250px;
-  object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+    border: 10px solid white;
+    box-shadow: 5px 5px 10px;
 }
-.pic{ 
-    background-color: lightgrey; 
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    gap: 20px; padding: 20px; 
-} 
-header, footer {
-  text-align: center;
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border-width: 0;
+    font-size: 1.2rem;
+}
+
+nav {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 10px 0;
+  gap: 10px;
+}
+nav.hide {
+  display: none;
 }
 
-@media screen and (min-width: 500px) {
-    .pic{
+@media screen and (max-width: 500px) {
+    .pics {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    nav.hide {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .pics {
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
+    .hide {
+      display: none;
+    }
+}
 
-
+@media screen and (min-width: 900px) {
+    .pics {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .menu-button {
+      display: none;
+    }
+    nav.hide{
+      display: flex;
+    }
 }
