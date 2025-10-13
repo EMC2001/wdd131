@@ -17,6 +17,9 @@ header, footer {
   background-color: #1E90FF;
 }
 
+p {
+  font-size: 3em;
+}
 h2{
   margin-left: auto;
   margin-right: auto;
