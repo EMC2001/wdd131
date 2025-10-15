@@ -34,7 +34,7 @@ modal.addEventListener('click', (event) => {
 });
 
 menuButton.addEventListener('click', () => {
-    const navigation = document.querySelector(".nav");
     nav.classList.toggle('hide');
 });
-          
+
+

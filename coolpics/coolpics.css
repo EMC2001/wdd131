@@ -107,4 +107,7 @@ dialog {
     nav.hide{
       display: flex;
     }
+    nav{
+      flex-direction: row;
+    }
 }
