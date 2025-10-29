@@ -43,7 +43,7 @@ const movies = [
     ];
 
     let movieList = document.querySelector('#movie-list');
-
+    
     movies.forEach(movie => {
 
             let html = `<article class="movie">
