@@ -13,7 +13,7 @@ const aCourse = {
           (section) => section.sectionNum == sectionNum
         );
         if (sectionIndex >= 0) {
-          this.sections[sectionIndex].enrolled++;
+          this.sections[sectionIndex].enrolled ++;
           renderSections(this.sections);
         }
       }
