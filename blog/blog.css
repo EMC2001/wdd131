@@ -63,6 +63,7 @@ h2{
     }
 
     #blog-grading{
+        border-top: 2px solid #ffc107;
         border-right: none;
         padding-top: 20px;
         display: flex;
