@@ -49,6 +49,7 @@ articles.forEach(article => {
             <ul class="blog-grading">
                 <li>${article.date}</li>
                 <li>${article.ages}</li>
+				<li>${article.genre}</li>
                 <li>${article.stars}</li>
             </ul>
 
