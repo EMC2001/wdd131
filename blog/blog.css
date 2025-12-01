@@ -28,15 +28,24 @@ footer {
 
 #blog-article {
     display: flex;
-    justify-content: center;
-    padding-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.description {
+    max-width: 600px;
+}
+.blog img {
+    display: block;
+    margin: 0 auto;
 }
 
 h2{
     color: red
 }
 
-#blog-grading {
+.blog-grading {
     display: flex;
     justify-content: left;
     list-style: none;
@@ -46,7 +55,7 @@ h2{
     border-right: 2px solid #ffc107;
 }
 
-#content-container {
+.content-container {
     display: flex;
     justify-content: center;
     gap: 30px;
