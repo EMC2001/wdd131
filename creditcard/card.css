@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    width: 350px;
+    height: 220px;
+    position: relative;
+}
+
+.front-card {
+    z-index: 2;
+    border: solid black;
+}
+
+.back-card {
+    z-index: 1;
+    border: solid black;
+}
+
