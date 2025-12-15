@@ -18,10 +18,7 @@ header, footer {
 .main-nav li {
     padding: 8px;
 }
-.main-nav a {
-    color: #ffc107;
-    text-decoration: none;
-}
+
 #movie-list {
     padding: 0 2rem;
 }
